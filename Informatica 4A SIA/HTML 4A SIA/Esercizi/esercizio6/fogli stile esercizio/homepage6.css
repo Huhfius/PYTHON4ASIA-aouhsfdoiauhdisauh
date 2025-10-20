@@ -1,0 +1,44 @@
+*{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#intestazione {
+    border: 2px;
+    border-style: solid;
+}
+
+#nav {
+    border: 2px;
+    border-style: solid;
+}
+
+figure {
+    display: block;
+    margin: auto;
+}
+
+#wisp {
+    background-color: antiquewhite;
+    border: 2px;
+    border-style: solid;
+    padding: 5px;
+}
+
+#clarion {
+    background-color:lightsteelblue;
+    border: 2px;
+    border-style: solid;
+    padding: 5px;
+}
+
+#quannnic {
+    background-color:mediumspringgreen;
+    border: 2px;
+    border-style: solid;
+    padding: 5px;
+}
+
+header{
+    padding: 5px;
+}
