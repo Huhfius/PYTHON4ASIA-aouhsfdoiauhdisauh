@@ -1,0 +1,42 @@
+#intestazione {
+    border: 2px;
+    border-style: solid;
+}
+
+#nav {
+    border: 2px;
+    border-style: solid;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+figure {
+    display: block;
+    margin: auto;
+}
+
+#wisp {
+    background-color: antiquewhite;
+    border: 2px;
+    border-style: solid;
+    padding: 5px;
+}
+
+#clarion {
+    background-color:lightsteelblue;
+    border: 2px;
+    border-style: solid;
+    padding: 5px;
+}
+
+#quannnic {
+    background-color:mediumspringgreen;
+    border: 2px;
+    border-style: solid;
+    padding: 5px;
+}
+
+header{
+    padding: 5px;
+}
