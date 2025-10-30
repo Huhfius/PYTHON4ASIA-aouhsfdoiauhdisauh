@@ -3,11 +3,12 @@
     border-style: solid;
 }
 
-#nav {
+nav ul li{
     border: 2px;
     border-style: solid;
     margin: 0px;
     padding: 0px;
+    float: left;
     overflow: hidden;
 }
 
@@ -39,4 +40,5 @@ figure {
 
 header{
     padding: 5px;
+
 }
