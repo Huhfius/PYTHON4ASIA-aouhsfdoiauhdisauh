@@ -1,44 +1,21 @@
-#intestazione {
-    border: 2px;
-    border-style: solid;
+nav ul {
+    list-style-type: none;
+    background-color:cadetblue;
+    overflow: hidden;
+    display: flex;
+    margin: 0px;
+    justify-content: flex-end;
 }
 
 nav ul li{
-    border: 2px;
-    border-style: solid;
-    margin: 0px;
-    padding: 0px;
     float: left;
-    overflow: hidden;
 }
 
-figure {
-    display: block;
-    margin: auto;
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
 }
 
-#wisp {
-    background-color: antiquewhite;
-    border: 2px;
-    border-style: solid;
-    padding: 5px;
-}
-
-#clarion {
-    background-color:lightsteelblue;
-    border: 2px;
-    border-style: solid;
-    padding: 5px;
-}
-
-#quannnic {
-    background-color:mediumspringgreen;
-    border: 2px;
-    border-style: solid;
-    padding: 5px;
-}
-
-header{
-    padding: 5px;
-
+a:hover{
+    background-color: brown;
 }
