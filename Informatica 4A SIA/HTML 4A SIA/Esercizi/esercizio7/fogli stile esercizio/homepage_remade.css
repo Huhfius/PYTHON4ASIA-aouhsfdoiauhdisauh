@@ -1,0 +1,40 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+}
+
+#intestazione{
+    text-align: center;
+    background-color: #13c5cf;
+    padding: 2mm;
+}
+
+article{
+    display: flex;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
