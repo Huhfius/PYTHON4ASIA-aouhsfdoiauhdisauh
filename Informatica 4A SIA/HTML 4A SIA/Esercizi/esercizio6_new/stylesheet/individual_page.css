@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/Ace_Combat_25th_Anniversary_Wallpaper_2048x2732.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+h1{
+    background: #0a84ff;
+    color: black;
+    padding: 40px 0;
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 15px;
+    font-size: 2.2em;
+}
+
+article{
+    background: #b3b3b3;
+    width: 80%;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 30px;
+
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.text{
+    flex: 1;
+    text-align: left;
+}
+
+.text h2{
+    margin-top: 0;
+    color: white;
+}
+
+.text p{
+    color: #f1f1f1;
+    max-width: 500px;
+}
+
+.figure{
+    flex: 0 0 260px;
+    text-align: center;
+}
+
+.figure img{
+    width: 100%;
+    border-radius: 15px;
+    display: block;
+}
+
+.figure figure{
+    margin: 0 0 25px 0;
+}
+
+.figure figcaption{
+    margin-top: 6px;
+    color: white;
+    font-size: 0.9em;
+}
+
+footer{
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px 0;
+    background: #b3b3b3;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer a{
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 0 15px;
+    background: #0a84ff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+footer a:hover{
+    background: #006fe0;
+}
